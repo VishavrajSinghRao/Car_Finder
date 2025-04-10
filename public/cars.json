@@ -1,0 +1,13 @@
+[
+    {
+      "id": 1,
+      "name": "Toyota Fortuner",
+      "brand": "Toyota",
+      "fuel": "Diesel",
+      "price": 3500000,
+      "seats": 7,
+      "image": "/images/fortuner.jpg"
+    },
+    ...
+  ]
+  

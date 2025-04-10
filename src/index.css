@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* For dark mode transitions */
+.dark {
+  color-scheme: dark;
+}
+
+/* Add to your index.css */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
